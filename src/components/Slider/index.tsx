@@ -24,7 +24,7 @@ export default function Slider() {
         navigation
         pagination={{ clickable: true }}
         autoplay={{
-          delay:2000,
+          delay:4000,
         }}
         style={{width: '100%', flex: '1'}}
       > 
