@@ -1,9 +1,8 @@
 import {
   Box,
   Flex, Heading, Icon, Popover, PopoverArrow,
-  PopoverBody, PopoverCloseButton, PopoverContent, PopoverHeader, Text
+  PopoverBody, PopoverCloseButton, PopoverContent, PopoverTrigger, Text
 } from "@chakra-ui/react";
-import {PopoverTrigger} from '@chakra-ui/popover'
 
 import { ContinentProps } from '../../pages/continent/[slug]'
 
