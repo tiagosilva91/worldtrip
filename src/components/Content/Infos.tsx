@@ -38,9 +38,9 @@ export default function Infos({ continent }: ContinentProps) {
 
           <Popover>
             <PopoverTrigger>
-              <Box cursor="pointer" ml="1" color="gray.400" w={["10px", "16px"]} h={["10px", "16px"]}>
-                <Icon as={RiInformationLine} />
-              </Box>
+              <span >
+                <Icon as={RiInformationLine} cursor="pointer" ml="1" color="gray.400" w={["10px", "16px"]} h={["10px", "16px"]}/>
+              </span>
             </PopoverTrigger>
             <PopoverContent bg="gray.700" color="yellow.400">
               <PopoverArrow bg="gray.700" />
